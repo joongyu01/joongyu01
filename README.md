@@ -6,7 +6,7 @@ I focus on automotive CAN/CAN FD reverse engineering: inspecting frames, analyzi
 
 Beyond automotive systems, I build across the frontend, backend, and database layers, with work in computer vision, data pipelines, and workflow automation.
 
-[Telegram · @joongyu01](https://t.me/joongyu01) · [Website](https://www.joongyu.co.kr/)
+[Telegram · @joongyu01](https://t.me/joongyu01)
 
 ### Work & focus
 
@@ -62,4 +62,4 @@ Some reverse-engineering work, source code, datasets, and technical findings rem
 
 일부 리버스 엔지니어링 작업, 소스 코드, 데이터셋과 기술 분석 결과는 보안과 기밀 유지를 위해 비공개로 관리합니다. 이 프로필에는 세부 구현을 공개하지 않는 범위에서 작업 내용을 정리했습니다.
 
-[Telegram · @joongyu01](https://t.me/joongyu01) · [Website](https://www.joongyu.co.kr/)
+[Telegram · @joongyu01](https://t.me/joongyu01)
