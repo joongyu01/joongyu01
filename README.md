@@ -1,59 +1,55 @@
 # Joongyu
 
-**Automotive CAN reverse engineering · Embedded systems · Vehicle diagnostics**
+**Automotive CAN reverse engineering · Embedded systems · Automated-driving research**
 
-I analyze vehicle communication and build the firmware and software around it.
+I investigate how vehicles communicate and build the software that connects signals, hardware, and driver-facing behavior.
 
-[Telegram · @joongyu01](https://t.me/joongyu01)
-
-### Reverse engineering
-
-Automotive CAN/CAN FD frame and signal analysis, DBC investigation, and protocol behavior analysis. I use captured traffic, driving logs, and code to understand how vehicle systems communicate, with Cabana and SavvyCAN for signal inspection and bit-level analysis.
-
-### Embedded systems
-
-ESP32 / Arduino firmware, CAN monitoring, and multi-bus interfaces. My work connects hardware inputs, communication protocols, and software tools for data capture and system integration.
-
-### Vehicle diagnostics
-
-BLE OBD data acquisition, EV battery and powertrain telemetry, and diagnostic logging. I build tools and dashboards to collect, inspect, and visualize vehicle data.
-
-I also work on frontend development, backend APIs, database design and integration, computer vision, data processing, and workflow automation.
-
-Some reverse-engineering work and technical details remain private for security and confidentiality.
-
-### Analysis workspace
-
-**Cabana — CAN FD frame inspection & signal analysis**
-
-![CAN FD frame inspection and signal analysis in Cabana](assets/cabana-signal-analysis.png)
-
-**SavvyCAN — Bit-level inspection & byte analysis**
-
-![Bit-level inspection and byte analysis in SavvyCAN](assets/savvycan-byte-analysis.png)
+[CarrotPilot collaborator](https://github.com/ajouatom/openpilot) · [Development branch](https://github.com/ajouatom/openpilot/tree/joongyu01/carrot-wip-dev) · [Live demo](https://demopilot.joongyu.co.kr/) · [Telegram](https://t.me/joongyu01)
 
 ---
 
-### 한국어
+### CarrotPilot
 
-**자동차 CAN 리버스 엔지니어링 · 임베디드 시스템 · 차량 진단**
+I contribute to CarrotPilot in the upstream repository, with ongoing development on `joongyu01/carrot-wip-dev`. My work focuses on Hyundai CAN-FD, stock instrument cluster integration, vehicle signaling, and diagnostics.
 
-차량 통신을 분석하고, 이를 활용하는 펌웨어와 소프트웨어를 만듭니다.
+| Work | Evidence |
+| --- | --- |
+| Decode CAN-FD signals and trace vehicle behavior | [Merged blind-spot signal fix](https://github.com/ajouatom/openpilot/pull/523) |
+| Integrate CCNC cluster indications with vehicle state | [Cluster integration work](https://github.com/ajouatom/openpilot/pull/558) |
+| Explore radar processing and runtime behavior | [Radar load-shedding proposal](https://github.com/ajouatom/openpilot/pull/582) |
+| Make development builds accessible in the browser | [Pilot_Demo](https://github.com/joongyu01/Pilot_Demo) |
 
-**리버스 엔지니어링**
+### Engineering focus
 
-자동차 CAN/CAN FD 프레임·신호 분석, DBC 조사, 프로토콜 동작 분석을 다룹니다. 수집한 통신 데이터와 주행 로그, 코드를 함께 살펴 시스템 간 통신 구조를 파악하며, Cabana와 SavvyCAN으로 신호와 비트 단위 변화를 분석합니다.
+**Reverse engineering**  
+CAN/CAN-FD frame inspection, signal decoding, DBC investigation, and protocol analysis with Cabana and SavvyCAN. I work from captured traffic, driving logs, and code to understand behavior across vehicle states.
 
-**임베디드 시스템**
+**Embedded systems & diagnostics**  
+ESP32 / Arduino firmware, CAN monitoring, multi-bus interfaces, BLE OBD data acquisition, and EV telemetry. I connect hardware inputs to tools for inspection, logging, and validation.
 
-ESP32·Arduino 기반 펌웨어, CAN 모니터링, 다중 버스 인터페이스를 개발합니다. 하드웨어 입력과 통신 프로토콜을 소프트웨어 도구에 연결해 데이터를 수집하고 시스템을 연동합니다.
+**Software & tooling**  
+Frontend interfaces, backend APIs, database integration, and workflow automation. I build tools that make complex systems easier to inspect, test, and use.
 
-**차량 진단**
+### Analysis workspace
 
-BLE OBD 데이터 수집, 전기차 배터리·파워트레인 상태 모니터링, 진단 로깅을 다룹니다. 차량 데이터를 수집·분석·시각화하는 도구와 대시보드를 만듭니다.
+<table>
+<tr>
+<th>Cabana · CAN-FD signal analysis</th>
+<th>SavvyCAN · Bit-level inspection</th>
+</tr>
+<tr>
+<td><img src="assets/cabana-signal-analysis.png" alt="CAN FD frame inspection and signal analysis in Cabana" width="440"></td>
+<td><img src="assets/savvycan-byte-analysis.png" alt="Bit-level inspection and byte analysis in SavvyCAN" width="440"></td>
+</tr>
+</table>
 
-이외에도 프론트엔드 개발, 백엔드 API, DB 설계·연동, 컴퓨터 비전, 데이터 처리, 업무 자동화를 합니다.
+<details>
+<summary>한국어 소개</summary>
 
-일부 리버스 엔지니어링 작업과 기술 세부 사항은 보안과 기밀 유지를 위해 비공개로 관리합니다.
+자동차 CAN/CAN-FD 통신을 분석하고, 신호와 하드웨어를 실제 기능으로 연결하는 소프트웨어를 만듭니다.
 
-[Telegram · @joongyu01](https://t.me/joongyu01)
+CarrotPilot 원본 저장소의 협업자로 참여하며 현대차 CAN-FD, 순정 계기판 연동, 차량 신호와 진단 기능을 개발합니다. 수집한 프레임과 주행 로그에서 동작을 파악하고, 코드와 테스트로 확인합니다.
+
+ESP32·Arduino 펌웨어, BLE OBD 데이터 수집, 전기차 상태 모니터링과 함께 분석·검증을 위한 웹 인터페이스와 자동화 도구를 개발합니다.
+
+</details>
