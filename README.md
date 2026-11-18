@@ -1,5 +1,13 @@
 # Joongyu
 
+### CarrotPilot Collaborator
+
+I reverse-engineer automotive CAN/CAN-FD networks and research automated-driving systems through hands-on development for CarrotPilot. On Hyundai platforms, my work spans stock instrument cluster integration, vehicle signaling, and diagnostics.
+
+I follow problems across the stack: from captured frames and signal decoding to embedded code, vehicle-state validation, and regression tests. I also build diagnostic and web tools that make those systems easier to inspect and test.
+
+[My development branch](https://github.com/ajouatom/openpilot/tree/joongyu01/carrot-wip-dev) · [Merged CAN-FD fix](https://github.com/ajouatom/openpilot/pull/523) · [Browser demo](https://github.com/joongyu01/Pilot_Demo)
+
 **Automotive CAN reverse engineering · Embedded systems · Vehicle diagnostics**
 
 I analyze vehicle communication and build the firmware and software around it.
